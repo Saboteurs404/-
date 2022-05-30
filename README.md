@@ -24,3 +24,13 @@ Tomcat官网：https://tomcat.apache.org/index.html
 MAVEN官网：https://maven.apache.org/download.cgi
 
 下载好后在path中配置到bin目录，使用mvn -v检查是否安装成功
+### 配置MAVEN本地仓库
+ 1. 在D:\Program Files\Apache\目录下新建maven-repository文件夹，该目录用作maven的本地库。
+
+ 2. 打开D:\Program Files\Apache\maven\conf\settings.xml文件，查找下面这行代码：
+  ```
+  <localRepository>/path/to/local/repo</localRepository>
+  ```
+ 3、localRepository节点默认是被注释掉的，需要把它移到注释之外，然后将localRepository节点的值改为我们在3.1中创建的目录D:\Program Files\Apache\maven-repository。
+ 当我们从maven中获得jar包的时候，maven首先会在本地仓库中查找，如果本地仓库有则返回；如果没有则从远程仓库中获取包，并在本地库中保存。
+ 此外，我们在maven项目中运行mvn install,项目将会自动打包并安装到本地仓库中
