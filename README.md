@@ -13,9 +13,12 @@ JDK(java Development kit)又称J2sdk,是Java开发包。它提供了Java的开�
 ![20220527180919](https://user-images.githubusercontent.com/65841055/170679437-e9da5a58-fe89-4a14-be45-b86b8466b167.png)
 ## 3、IDEA安装
 ## 4、Tomact的安装与配置
+Tomcat官网：https://tomcat.apache.org/index.html
 从Tomcat的官方文档可以看到，Tomcat 10有一个大的变动：jar包从 javax.* 变成了 jakarta.*，这就要求从Tomcat 9 等 迁移到Tomcat 10的时候，要么做一些代码改动，要么借助Tomcat官网提供的迁移工具将编译好的war变更成用jakarta的。
 
 ![20220530150004](https://user-images.githubusercontent.com/65841055/170935245-5d299784-b4c4-430b-b6b9-fd724cdb15ec.png)
 ![20220530150144](https://user-images.githubusercontent.com/65841055/170935367-599d9419-2e43-4fb7-92e4-0120340be1b2.png)
   如果出现乱码需要修改Tomcat目录下的conf文件夹中的logging.properties文件，找到对应的出现乱码的位置，将utf-8修改成GBK
 ## 5、MAVEN(建议不要装在C盘，否者加载仓库文件时，可能因为权限问题无法写入)
+MAVEN官网：https://maven.apache.org/download.cgi
+
