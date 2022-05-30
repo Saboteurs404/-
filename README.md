@@ -15,3 +15,5 @@ JDK(java Development kit)又称J2sdk,是Java开发包。它提供了Java的开�
 ## 4、Tomact的安装与配置
 从Tomcat的官方文档可以看到，Tomcat 10有一个大的变动：jar包从 javax.* 变成了 jakarta.*，这就要求从Tomcat 9 等 迁移到Tomcat 10的时候，要么做一些代码改动，要么借助Tomcat官网提供的迁移工具将编译好的war变更成用jakarta的。
 
+![20220530150004](https://user-images.githubusercontent.com/65841055/170935245-5d299784-b4c4-430b-b6b9-fd724cdb15ec.png)
+![20220530150018](https://user-images.githubusercontent.com/65841055/170935252-6bbde764-ceb3-4e53-8852-9731cb1145de.png)
