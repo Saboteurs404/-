@@ -12,3 +12,6 @@ JDK(java Development kit)又称J2sdk,是Java开发包。它提供了Java的开�
 从 http://commons.apache.org/logging/ 下载 Apache Commons Logging API 的最新版本。
 ![20220527180919](https://user-images.githubusercontent.com/65841055/170679437-e9da5a58-fe89-4a14-be45-b86b8466b167.png)
 ## 3、IDEA安装
+## 4、Tomact的安装与配置
+从Tomcat的官方文档可以看到，Tomcat 10有一个大的变动：jar包从 javax.* 变成了 jakarta.*，这就要求从Tomcat 9 等 迁移到Tomcat 10的时候，要么做一些代码改动，要么借助Tomcat官网提供的迁移工具将编译好的war变更成用jakarta的。
+
