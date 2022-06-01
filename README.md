@@ -34,3 +34,8 @@ MAVEN官网：https://maven.apache.org/download.cgi
  3、localRepository节点默认是被注释掉的，需要把它移到注释之外，然后将localRepository节点的值改为我们在3.1中创建的目录D:\Program Files\Apache\maven-repository。
  当我们从maven中获得jar包的时候，maven首先会在本地仓库中查找，如果本地仓库有则返回；如果没有则从远程仓库中获取包，并在本地库中保存。
  此外，我们在maven项目中运行mvn install,项目将会自动打包并安装到本地仓库中
+ ### 配置IDEA的maven环境
+
+
+## mysql数据库安装与部署
+## navicat安装
