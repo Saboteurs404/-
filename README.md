@@ -37,8 +37,8 @@ MAVEN官网：https://maven.apache.org/download.cgi
  ### 配置IDEA的maven环境
 
 
-## mysql数据库安装与部署
+## 6、mysql数据库安装与部署
 在通过mysql压缩包来安装时，经过多次尝试最终都无法修改密码。所以最后选择通过.exe文件进行安装。运行正常，不用进行额外的配置
-## navicat安装
+## 7、navicat安装
 navicat是一套可创建多个连接的数据库管理工具
 安装的是navicat15  安装包放在了百度网盘里
